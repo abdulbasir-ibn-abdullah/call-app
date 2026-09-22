@@ -1,0 +1,37 @@
+# Node modullari
+node_modules/
+jspm_packages/
+
+# Python Virtual Environment
+.venv/
+backend/.venv
+venv/
+backend/venv
+ENV/
+env/
+
+# SQLite va boshqa ma'lumotlar bazalari (Mutloq maxfiy)
+data/family_call.db
+*.db
+*.sqlite3
+
+# Maxfiy muhit o'zgaruvchilari fayllari
+.env
+backend/.env
+.env.local
+
+# Production build va loglar
+dist/
+build/
+*.log
+
+# Tizim fayllari
+.DS_Store
+.vscode/
+.idea/
+
+# Python cache fayllari
+__pycache__/
+*.pyc
+*.pyo
+*.pyd

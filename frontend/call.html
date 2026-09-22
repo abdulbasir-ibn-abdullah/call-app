@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Video va Audio Qo'ng'iroq</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Video va Audio Qo'ng'iroq</h1>
+    <div>
+      <span id="me" class="muted"></span>
+      <button id="logout-btn" class="link-btn">Chiqish</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="contacts-section">
+      <h2>Onlayn a'zolar (bir nechtasini tanlab guruh qo'ng'iroq qilishingiz mumkin)</h2>
+      <ul id="contacts"></ul>
+      <button id="start-call-btn" disabled>Qo'ng'iroq boshlash</button>
+      <p id="status" class="muted">Ulanmoqda...</p>
+    </section>
+
+    <section id="incoming-call" class="hidden overlay">
+      <div class="overlay-box">
+        <p><strong id="caller-name"></strong> qo'ng'iroq qilmoqda</p>
+        <button id="accept-btn" class="accept">Qabul qilish</button>
+        <button id="reject-btn" class="reject">Rad etish</button>
+      </div>
+    </section>
+
+    <section id="in-call" class="hidden">
+      <div id="video-grid" class="video-grid"></div>
+      <div class="call-controls">
+        <button id="mic-btn">🎤 Mikrofon</button>
+        <button id="cam-btn">📷 Kamera (o'chiq)</button>
+        <button id="switch-cam-btn" disabled>🔄 Kamera almashtirish</button>
+        <button id="fullscreen-btn">⛶ To'liq ekran</button>
+        <button id="hangup-btn" class="reject">Tugatish</button>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="js/call.js"></script>
+</body>
+</html>

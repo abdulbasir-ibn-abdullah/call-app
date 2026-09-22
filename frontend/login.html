@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kirish — Video va Audio Qo'ng'iroq</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="center-box">
+    <h1>Video va Audio Qo'ng'iroq</h1>
+    <form id="login-form">
+      <label for="username">Login</label>
+      <input type="text" id="username" autocomplete="username" required />
+
+      <label for="password">Parol</label>
+      <input type="password" id="password" autocomplete="current-password" required />
+
+      <button type="submit">Kirish</button>
+      <p id="error-box" class="error"></p>
+    </form>
+    <p class="muted">Hisob yo'qmi? Admindan so'rang — ro'yxatdan o'tish yopiq.</p>
+  </div>
+  <script type="module" src="js/login.js"></script>
+</body>
+</html>
