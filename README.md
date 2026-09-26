@@ -102,3 +102,4 @@ Tailscale allaqachon bor, shuni ishlatish eng qulay yo'l).
 - `frontend/js/crypto.js` `@noble/curves` kutubxonasini CDN (`esm.sh`)dan
   yuklaydi — internet kerak. Offline ishlatish uchun paketni lokal
   yuklab, `<script type="module">` import yo'lini shunga o'zgartiring.
+# Yangilanish
